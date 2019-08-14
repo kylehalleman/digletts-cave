@@ -2,7 +2,7 @@
 
 ## To run
 
-1. Open index.html in a web browser.
+1. Open index.html in a web browser or [play it on Github page](https://kylehalleman.github.io/digletts-cave/)
 
 ## Credits
 
