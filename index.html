@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Diglett's Cave</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1 class="title">Diglett's Cave Whack-a-Mole</h1>
+      </header>
+      <noscript>
+        It will be pretty hard to play this game without JavaScript,
+        unfortunately.
+      </noscript>
+
+      <section id="game-controls" class="controls-container" hidden>
+        <div class="controls">
+          <button
+            id="control-start"
+            class="controls__button"
+            aria-live="polite"
+          >
+            Play
+          </button>
+          <button id="control-reset" class="controls__button">Reset</button>
+        </div>
+        <div class="score-board">
+          <p aria-live="polite" aria-atomic="true">
+            Time:
+            <span class="score-board__time"></span>
+          </p>
+          <p aria-live="polite" aria-atomic="true">
+            Score:
+            <span class="score-board__score">0</span>
+          </p>
+        </div>
+      </section>
+      <section id="game-board" class="game-board" hidden>
+        <button class="diglett" aria-label="Diglett hiding">
+          <img class="diglett__img" src="./diglett.png" />
+        </button>
+        <button class="diglett" aria-label="Diglett hiding">
+          <img class="diglett__img" src="./diglett.png" />
+        </button>
+        <button class="diglett" aria-label="Diglett hiding">
+          <img class="diglett__img" src="./diglett.png" />
+        </button>
+        <button class="diglett" aria-label="Diglett hiding">
+          <img class="diglett__img" src="./diglett.png" />
+        </button>
+        <button class="diglett" aria-label="Diglett hiding">
+          <img class="diglett__img" src="./diglett.png" />
+        </button>
+        <button class="diglett" aria-label="Diglett hiding">
+          <img class="diglett__img" src="./diglett.png" />
+        </button>
+        <button class="diglett" aria-label="Diglett hiding">
+          <img class="diglett__img" src="./diglett.png" />
+        </button>
+        <button class="diglett" aria-label="Diglett hiding">
+          <img class="diglett__img" src="./diglett.png" />
+        </button>
+        <button class="diglett" aria-label="Diglett hiding">
+          <img class="diglett__img" src="./diglett.png" />
+        </button>
+      </section>
+    </main>
+    <span
+      id="announce"
+      class="sr-only"
+      aria-live="polite"
+      aria-atomic="true"
+    ></span>
+    <script src="./polyfills.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

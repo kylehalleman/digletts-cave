@@ -1,0 +1,11 @@
+{
+  "name": "digletts-cave",
+  "version": "0.0.1",
+  "description": "Simple whack-a-mole game, but with diglett",
+  "main": "index.html",
+  "author": "Kyle Halleman",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "1.18.2"
+  }
+}
